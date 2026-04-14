@@ -1,0 +1,104 @@
+@font-face {
+  font-family: "Satoshi";
+  src: url("./fonts/Satoshi-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Satoshi";
+  src: url("./fonts/Satoshi-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "IntegralCF";
+  src: url("./fonts/IntegralCF-Bold.woff2") format("woff2");
+  font-weight: 800;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --main_color: #0090f0;
+  --p_color: #7b7b7b;
+  --search_color: #868585;
+  --pg_color: #f3f3f3;
+  --white_color: #fff;
+  --color_heading: #253237;
+  --color_logo: #000000;
+  --border_color: #d6d6d6d5;
+}
+body {
+  background: var(--white_color);
+  font-family: "Satoshi", sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+html {
+  scroll-behavior: smooth;
+}
+#new-arrivals,
+#top-selling,
+#brands {
+  scroll-margin-top: 101.6px;
+}
+img {
+  width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--color_heading);
+  font-family: "IntegralCF", sans-serif;
+  text-transform: uppercase;
+}
+
+span {
+  color: var(--main_color);
+}
+p {
+  color: var(--p_color);
+}
+input,
+button,
+textarea,
+select {
+  outline: none;
+  border: none;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: var(--color_heading);
+}
+.container {
+  width: 90%;
+  max-width: 1350px;
+  margin: 0 auto;
+  position: relative;
+}
+.btn {
+  padding: 10px 18px;
+  text-transform: capitalize;
+  cursor: pointer;
+  border-radius: 30px;
+  background: var(--main_color);
+  color: var(--white_color);
+  display: flex;
+  align-items: center;
+  transition: 0.3s;
+  width: max-content;
+}
+.btn:hover {
+  scale: 1.1;
+}
