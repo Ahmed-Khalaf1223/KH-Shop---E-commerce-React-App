@@ -1,16 +1,79 @@
-# React + Vite
+# 🛍️ KH-Shop - E-commerce React App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📌 Overview
 
-Currently, two official plugins are available:
+XShop is a modern and responsive e-commerce web application built using React.
+It allows users to browse products, view detailed information, search with suggestions, and manage a shopping cart.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* 🔍 Smart Search with suggestions (Debounce)
+* 🛒 Fully functional Shopping Cart
+* 💾 Cart persistence using LocalStorage
+* 📦 Product listing & filtering by category
+* 📄 Product Details page with:
 
-## Expanding the ESLint configuration
+  * Image gallery (Swiper)
+  * Ratings & Reviews
+  * Specifications
+* ⭐ Top Selling & New Arrivals sections
+* 📱 Fully Responsive Design
+* ⚡ Skeleton Loading for better UX
+* 🔔 Toast Notifications
+* 🔝 Scroll To Top on navigation
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🧠 Technologies Used
+
+* **React.js**
+* **React Router DOM**
+* **Context API** (State Management)
+* **JavaScript (ES6+)**
+* **CSS3 (Responsive Design)**
+* **Swiper.js** (Sliders)
+* **React Toastify** (Notifications)
+* **LocalStorage API**
+
+---
+
+## 📂 Project Structure
+
+```
+src/
+│── components/
+│── pages/
+│── context/
+│── assets/
+│── App.js
+```
+
+
+---
+
+## 🎯 Project Goals
+
+* Practice building a real-world React application
+* Implement global state management using Context API
+* Improve UI/UX with modern design techniques
+* Handle dynamic data and user interactions efficiently
+
+---
+
+## 📸 Screenshots
+
+(Add screenshots here)
+
+---
+
+## 👨‍💻 Author
+
+Developed by **Ahmed Khalaf**
+
+---
+
+## 📄 License
+
+This project is open-source and available for learning purposes.
