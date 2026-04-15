@@ -1,4 +1,4 @@
-# 🛍️ KH-Shop - E-commerce React App
+<img width="1129" height="7901" alt="home_page" src="https://github.com/user-attachments/assets/0b9d3932-b372-4c2e-b667-1478700706ba" /># 🛍️ KH-Shop - E-commerce React App
 
 ## 📌 Overview
 
@@ -64,7 +64,23 @@ src/
 
 ## 📸 Screenshots
 
-(Add screenshots here)
+### 🏠 Home Page
+![Home](./Downloads/home_page.png)
+
+### 🛍️ Products Page
+![Products](./Downloads/Products_Page.png)
+
+### 📄 Product Details
+![Details](./Downloads/Product_Details.png)
+
+### 🛒 Cart Page
+![Cart](./Downloads/Your_Cart.png)
+
+### 🛒 Cart Page empty
+![Cart](./Downloads/Empty_Cart.png)
+
+### 📱 Responsive Page
+![Responsive](./Downloads/Responsive_Page.png)
 
 ---
 
