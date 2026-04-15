@@ -69,20 +69,20 @@ src/
   
    # 🛍️ Products Page
    <img src="src/assets/image/page/Products_Page.png" width="25%"/>
-  
    # 📄 Product Details
    <img src="src/assets/image/page/Product_Details.png" width="25%"/>
 </p>
 
 <p align="center">   
+ 
+   # 🛒 Cart Page
    <img src="src/assets/image/page/Your_Cart.png" width="25%"/>
-   ### 🛒 Cart Page
+   # 🛒 Cart Page empty
    <img src="src/assets/image/page/Empty_Cart.png" width="25%"/>
-   ### 🛒 Cart Page empty
  </p>
  <p align="center"> 
+   # 📱 Responsive Page
    <img src="src/assets/image/page/Responsive_Page.png" width="25%"/>
-   ### 📱 Responsive Page
  </p>
 
 ---
