@@ -65,7 +65,7 @@ src/
 ## 📸 Screenshots
 
 ### 🏠 Home Page
-![Home](assets/image/page/home_page.png)
+![Home](src/assets/image/page/home_page.png)
 
 ### 🛍️ Products Page
 ![Products](assets/image/page/Products_Page.png)
