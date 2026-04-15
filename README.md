@@ -64,23 +64,25 @@ src/
 
 ## 📸 Screenshots
 
-### 🏠 Home Page
-<img src="src/assets/image/page/home_page.png" width="200"/>
-
-### 🛍️ Products Page
-<img src="src/assets/image/page/Products_Page.png" width="200"/>
-
-### 📄 Product Details
-<img src="src/assets/image/page/Product_Details.png" width="200"/>
-
-### 🛒 Cart Page
-<img src="src/assets/image/page/Your_Cart.png" width="200"/>
-
-### 🛒 Cart Page empty
-<img src="src/assets/image/page/Empty_Cart.png" width="200"/>
-
-### 📱 Responsive Page
-<img src="src/assets/image/page/Responsive_Page.png" width="200"/>
+<p align="center">
+    ### 🏠 Home Page
+   <img src="src/assets/image/page/home_page.png" width="200"/>
+   
+   ### 🛍️ Products Page
+   <img src="src/assets/image/page/Products_Page.png" width="200"/>
+   
+   ### 📄 Product Details
+   <img src="src/assets/image/page/Product_Details.png" width="200"/>
+   
+   ### 🛒 Cart Page
+   <img src="src/assets/image/page/Your_Cart.png" width="200"/>
+   
+   ### 🛒 Cart Page empty
+   <img src="src/assets/image/page/Empty_Cart.png" width="200"/>
+   
+   ### 📱 Responsive Page
+   <img src="src/assets/image/page/Responsive_Page.png" width="200"/>
+ </p>
 
 ---
 
