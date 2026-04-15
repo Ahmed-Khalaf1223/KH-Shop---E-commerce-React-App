@@ -1,4 +1,4 @@
-<img width="500" height="7190" alt="home_page" src="https://github.com/user-attachments/assets/0b9d3932-b372-4c2e-b667-1478700706ba" /># 🛍️ KH-Shop - E-commerce React App
+<img width="350" height="2000" alt="home_page" src="https://github.com/user-attachments/assets/0b9d3932-b372-4c2e-b667-1478700706ba" /># 🛍️ KH-Shop - E-commerce React App
 
 ## 📌 Overview
 
@@ -67,21 +67,21 @@ src/
 <p align="center">
     ### 🏠 Home Page
    <img src="src/assets/image/page/home_page.png" width="30%"/>
-   
    ### 🛍️ Products Page
    <img src="src/assets/image/page/Products_Page.png" width="30%"/>
-   
    ### 📄 Product Details
    <img src="src/assets/image/page/Product_Details.png" width="30%"/>
    
+</p>
+
+<p align="center">   
    ### 🛒 Cart Page
    <img src="src/assets/image/page/Your_Cart.png" width="30%"/>
-   
    ### 🛒 Cart Page empty
    <img src="src/assets/image/page/Empty_Cart.png" width="30%"/>
-   
    ### 📱 Responsive Page
    <img src="src/assets/image/page/Responsive_Page.png" width="30%"/>
+   
  </p>
 
 ---
