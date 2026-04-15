@@ -4,7 +4,7 @@
 
 ## 📌 Overview
 
-XShop is a modern and responsive e-commerce web application built using React.
+KH-Shop is a modern and responsive e-commerce web application built using React.
 It allows users to browse products, view detailed information, search with suggestions, and manage a shopping cart.
 
 ---
