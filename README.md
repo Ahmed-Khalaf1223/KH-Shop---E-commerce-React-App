@@ -64,23 +64,27 @@ src/
 
 ## 📸 Screenshots
 
+<img src="src/assets/image/page/home_page.png" width="300"/>
+<img src="src/assets/image/page/Products_Page" width="300"/>
+<img src="src/assets/image/page/Product_Details" width="300"/>
+
 ### 🏠 Home Page
 ![Home](src/assets/image/page/home_page.png)
 
 ### 🛍️ Products Page
-![Products](assets/image/page/Products_Page.png)
+![Products](src/assets/image/page/Products_Page.png)
 
 ### 📄 Product Details
-![Details](assets/image/page/Product_Details.png)
+![Details](src/assets/image/page/Product_Details.png)
 
 ### 🛒 Cart Page
-![Cart](assets/image/page/Your_Cart.png)
+![Cart](src/assets/image/page/Your_Cart.png)
 
 ### 🛒 Cart Page empty
-![Cart](assets/image/page/Empty_Cart.png)
+![Cart](src/assets/image/page/Empty_Cart.png)
 
 ### 📱 Responsive Page
-![Responsive](assets/image/page/Responsive_Page.png)
+![Responsive](src/assets/image/page/Responsive_Page.png)
 
 ---
 
