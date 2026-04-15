@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import { useContext, useEffect, useState } from "react";
 import "./Product.css";
 import { ProductContext } from "../context/ProductContext";
@@ -7,15 +8,32 @@ import PaginationProducts from "../components/ui/ProductPagination/paginationPro
 import Breadcrumbs from "../components/ui/Breadcrumbs/Breadcrumbs";
 import ProductsSkeleton from "../components/ui/Skeleton/All product/ProductsSkeleton";
 import filter_images from "../assets/image/filter.715a6a6e.svg";
+import { useLocation } from "react-router-dom";
+
 function Product() {
-  const { filteredProducts, loading, categories, selectedCategory } =
-    useContext(ProductContext);
+  const {
+    filteredProducts,
+    loading,
+    categories,
+    selectedCategory,
+    setSelectedCategory,
+    setSearchQuery,
+  } = useContext(ProductContext);
+
+  const location = useLocation();
+
+  useEffect(() => {
+    if (location.state?.reset) {
+      setSelectedCategory("all");
+      setSearchQuery("");
+    }
+  }, [location.key]);
 
   const [currentPage, setCurrentPage] = useState(1);
   const productsPerPage = 6;
 
   useEffect(() => {
-    // eslint-disable-next-line react-hooks/set-state-in-effect
+    // Reset pagination when filteredProducts changes
     setCurrentPage(1);
   }, [filteredProducts]);
 

@@ -25,7 +25,9 @@ function Navbar() {
 
           <ul className={`nav-links ${menuOpen ? "active" : ""}`}>
             <div>
-              <Link to="/products">Products</Link>
+              <Link to="/products" state={{ reset: true }}>
+                Products
+              </Link>
             </div>
             <div>
               <Link to="/#top-selling">Top Sale</Link>

@@ -59,10 +59,12 @@ function SearchInput({ searchOpen, setSearchOpen }) {
     if (searchTerm.trim()) {
       setSearchQuery(searchTerm);
       navigate("/products");
-      setSearchOpen?.(false);
+
+      setSearchTerm("");
     }
 
     setSuggestions([]);
+    setSearchOpen?.(false);
   };
 
   return (
@@ -86,6 +88,7 @@ function SearchInput({ searchOpen, setSearchOpen }) {
                 onClick={() => {
                   setSearchQuery(item.title);
                   navigate(`/products/${item.id}`);
+                  setSearchTerm("");
                   setSuggestions([]);
                   setSearchOpen?.(false);
                 }}

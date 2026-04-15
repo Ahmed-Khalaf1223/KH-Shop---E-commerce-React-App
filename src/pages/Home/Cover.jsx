@@ -1,9 +1,19 @@
-import React from "react";
+import React, { useContext } from "react";
 import ModelsImage from "../../assets/image/Models-img.png";
 import starVector from "../../assets/image/star.png";
 import "./home.css";
 import Prand from "./prand";
+import { useNavigate } from "react-router";
+import { ProductContext } from "../../context/ProductContext";
 function Cover() {
+  const navigate = useNavigate();
+  const { setSelectedCategory, setSearchQuery } = useContext(ProductContext);
+
+  const handleGoToProducts = () => {
+    setSelectedCategory("all");
+    setSearchQuery("");
+    navigate("/products");
+  };
   return (
     <>
       <div className="hero_wrapper">
@@ -16,7 +26,9 @@ function Cover() {
                 garments, designed to bring out your individuality and cater to
                 your sense of style.
               </p>
-              <button className="btn-shop-now">Shop Now</button>
+              <button className="btn-shop-now" onClick={handleGoToProducts}>
+                Shop Now
+              </button>
 
               <div className="hero_stats">
                 <div className="stat-item">
