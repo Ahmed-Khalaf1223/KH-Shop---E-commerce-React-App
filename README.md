@@ -66,22 +66,22 @@ src/
 
 <p align="center">
     ### 🏠 Home Page
-   <img src="src/assets/image/page/home_page.png" width="200"/>
+   <img src="src/assets/image/page/home_page.png" width="30%"/>
    
    ### 🛍️ Products Page
-   <img src="src/assets/image/page/Products_Page.png" width="200"/>
+   <img src="src/assets/image/page/Products_Page.png" width="30%"/>
    
    ### 📄 Product Details
-   <img src="src/assets/image/page/Product_Details.png" width="200"/>
+   <img src="src/assets/image/page/Product_Details.png" width="30%"/>
    
    ### 🛒 Cart Page
-   <img src="src/assets/image/page/Your_Cart.png" width="200"/>
+   <img src="src/assets/image/page/Your_Cart.png" width="30%"/>
    
    ### 🛒 Cart Page empty
-   <img src="src/assets/image/page/Empty_Cart.png" width="200"/>
+   <img src="src/assets/image/page/Empty_Cart.png" width="30%"/>
    
    ### 📱 Responsive Page
-   <img src="src/assets/image/page/Responsive_Page.png" width="200"/>
+   <img src="src/assets/image/page/Responsive_Page.png" width="30%"/>
  </p>
 
 ---
