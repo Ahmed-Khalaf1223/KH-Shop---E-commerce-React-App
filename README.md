@@ -1,5 +1,6 @@
-<img width="350" height="2000" alt="home_page" src="https://github.com/user-attachments/assets/0b9d3932-b372-4c2e-b667-1478700706ba" />#
-🛍️ KH-Shop - E-commerce React App
+<img width="350" height="2000" alt="home_page" src="https://github.com/user-attachments/assets/0b9d3932-b372-4c2e-b667-1478700706ba" />
+
+#🛍️ KH-Shop - E-commerce React App
 
 ## 📌 Overview
 
