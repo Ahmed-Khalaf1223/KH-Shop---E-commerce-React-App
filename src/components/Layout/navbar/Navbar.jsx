@@ -58,7 +58,11 @@ function Navbar() {
             <HiOutlineX onClick={() => setMenuOpen(false)} />
           </div>
           <div className="menu-links">
-            <Link to="/products" onClick={() => setMenuOpen(false)}>
+            <Link
+              to="/products"
+              state={{ reset: true }}
+              onClick={() => setMenuOpen(false)}
+            >
               Products
             </Link>
             <Link to="/#top-selling" onClick={() => setMenuOpen(false)}>
