@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import ModelsImage from "../../assets/image/Models-img.png";
 import starVector from "../../assets/image/star.png";
 import "./home.css";
-import Prand from "./prand";
+import Prand from "./Prand";
 import { useNavigate } from "react-router";
 import { ProductContext } from "../../context/ProductContext";
 function Cover() {
